@@ -4,3 +4,5 @@ websockets
 numpy
 kafka-python
 pyspark
+pytest
+pytest-mock

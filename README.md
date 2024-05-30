@@ -1,1 +1,1 @@
-![alt text](artefacts/diagrame.png)
+![alt text](artefacts/diagrame.drawio.svg)
