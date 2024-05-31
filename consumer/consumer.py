@@ -10,7 +10,7 @@ spark = SparkSession.builder \
 heart_rate_schema = StructType([StructField("heart_rate", FloatType(), True)])
 body_temp_schema = StructType([StructField("body_temperature", FloatType(), True)])
 bp_schema = StructType([StructField("blood_pressure", StringType(), True)])
-oxygen_schema = StructType([StructField("peripheral_oxygen_saturation", FloatType(), True)])
+oxygen_schema = StructType([StructField("O2_saturation", FloatType(), True)])
 
 # Function to create DataFrame for each topic
 def create_df(topic, schema):
